@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+h1 {
+  font-weight: lighter;
+}
+h2 {
+  letter-spacing: 0.04em;
+}
+h3 {
+  opacity: 0.5;
+  font-weight: lighter;
+}
+header {
+  margin: 0 auto;
+  width: 50%;
+  max-width: 500px;
+  min-width: 400px;
+  text-align: center;
+  border-bottom: 1.5px solid black;
+  padding: 20px 0;
+  margin-bottom: 100px;
+}
+.logo {
+  display: inline-block;
+  width: fit-content;
+}
+.left {
+  padding-right: 30px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.question {
+  position: relative;
+  display: flex;
+}
+.question img {
+  border-radius: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  border-radius: 0.3125rem;
+  box-shadow: 0 0.3125rem 1.25rem 0 rgba(0, 0, 0, 0.24);
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.bottom {
+  width: 100%;
+  height: 10px;
+  background-color: pink;
+}
+
+.smGray a {
+  border: 1px solid #cfcfcf;
+  color: #555;
+  background: #e9e9e9;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 1em;
+  text-shadow: 0 1px 0 #fafafa;
+  margin: 10px;
+  padding: 7px 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: #f6f6f6 0 1px 0 inset;
+  font-weight: 400;
+}

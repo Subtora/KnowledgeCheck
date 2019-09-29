@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Subject of history : HIST2340</h1>
+        <h3>By Jason Funderburker</h3>
+      </div>
+    </header>
+    <section class="main">
+      <div class="card">
+        <div class="question">
+          <div class="left">
+            <small>3 / 10</small>
+            <h2>
+              Who are these characters?
+            </h2>
+            <div class="form">
+              <label class="radio">
+                <input type="radio" name="Q1" />
+                Wirt & beatrice
+              </label>
+              <label class="radio">
+                <input type="radio" name="Q1" />
+                Greg & Wirt
+              </label>
+              <label class="radio">
+                <input type="radio" name="Q1" />
+                Kitty & Greg
+              </label>
+              <label class="radio">
+                <input type="radio" name="Q1" />
+                umm... not sure
+              </label>
+            </div>
+          </div>
+          <div class="right">
+            <img src="./images/example.jpg" alt="image" width="300px" />
+          </div>
+        </div>
+
+        <div id="skip" class="smGray" style="visibility: visible;">
+          <a
+            id="pickprev"
+            class="skip-el skip-prev"
+            onclick="pickPreviousSlot();"
+            alt="Click to skip to previous"
+            name="Skip"
+            >Prev</a
+          >
+          <a
+            id="picknext"
+            class="skip-el skip-next"
+            onclick="pickSlot();"
+            alt="Click to skip to next"
+            name="Skip"
+            >Next</a
+          >
+        </div>
+      </div>
+    </section>
+    <script src="scripts.js" charset="utf-8"></script>
+  </body>
+</html>
