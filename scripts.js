@@ -15,5 +15,5 @@ function setData(index){
   author.innerHTML = "By " + data.author;
   ask.innerHTML = data.questions[index].ask;
 }
-
+console.log(data)
 setData(0);
