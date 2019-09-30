@@ -7,6 +7,7 @@ var data;
 
 $.getJSON("data/questions.json", function(json) {
   data = json;
+  console.log(data)
 });
 
 function setData(index){
